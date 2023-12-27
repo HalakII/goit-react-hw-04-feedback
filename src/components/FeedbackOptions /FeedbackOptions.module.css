@@ -1,0 +1,36 @@
+.feedbackWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.feedbackButton {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #7ba5f4;
+  border-color: transparent;
+  transition: scale 500ms;
+  box-shadow: 6px 6px 9px -1px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 6px 6px 9px -1px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 6px 6px 9px -1px rgba(0, 0, 0, 0.47);
+}
+
+.feedbackButton:hover {
+  border: 2px solid #3777ef;
+  color: #fffec3;
+  background-color: #3777ef;
+  scale: 1.05;
+}
+
+/* .button_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+} */
